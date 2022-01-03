@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  color: darkblue;
+  inline-size: auto;
+  font-family: "Roboto", sans-serif;
+}
+.navbar a:hover {
+  color: hotpink;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  flex-basis: 40%;
+  border-radius: 400px;
+}
+
+.text {
+  font-size: medium;
+  padding-left: 30px;
+}
+body {
+  background-color: whitesmoke;
+}
+h3 {
+  color: darkblue;
+  font-family: "Tahoma", sans-serif;
+  font-size: x-large;
+  font-style: normal;
+  font-weight: bold;
+}
+p strong {
+  color: darkblue;
+  font-style: italic;
+}
+p {
+  font-family: "Tahoma", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+}
+div {
+  font-family: "Tahoma", sans-serif;
+  font-size: small;
+  color: darkblue;
+}
+footer {
+  padding: 10px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: stretch;
+}
+a {
+  display: flex;
+}
+.link {
+  display: block;
+  justify-content: center;
+}
+#work {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 50px;
+}
+#about {
+  padding: 30px;
+  width: auto;
+  height: fit-content;
+  background-color: gainsboro;
+}
+.namel {
+  display: inline;
+}
+.foot-link {
+  margin-left: 500px;
+}
+#contact {
+  margin-left: 500px;
+}
+
